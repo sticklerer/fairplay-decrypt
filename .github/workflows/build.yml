@@ -28,7 +28,7 @@ jobs:
           make --version
 
       - name: Build
-        run: make -C credential-retrival
+        run: make -C credential-retrieval
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
