@@ -28,7 +28,7 @@ jobs:
           make --version
 
       - name: Build
-        run: make -C applebaum
+        run: make -C credential-retrival
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
