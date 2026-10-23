@@ -34,6 +34,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: applebaum-build
-          path: credential-retrival/build/
+          path: credential-retrieval/build/
           if-no-files-found: error
           retention-days: 14
